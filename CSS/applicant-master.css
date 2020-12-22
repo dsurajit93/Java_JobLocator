@@ -1,0 +1,125 @@
+/*ApplicantLogin*/
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background: url(/JobLocator/Images/back8.jpg);
+background-size: cover;
+}
+.head{
+	background: rgb(0,206,209,0.7);
+}
+#lg{
+	height:100px;
+	width:200px;
+	margin-left: 50px;
+}
+.menu{
+	float: right;
+	margin-top: -35px;
+}
+.menu a{
+	color: black;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-decoration: none;
+	border: 1px solid black;
+}
+.menu a:hover{
+	color: white;
+	background-color: black;
+}
+.container{
+  width: 450px;
+  margin: 30px auto;
+  //float:right;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.signup,
+.login{
+  width: 50%;
+  background: rgb(224,255,255,0.7);
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.signup-form,
+.login-form{
+  background: rgb(224,255,255,0.7);
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+.signup-form table,
+.login-form table{
+	width: 100%;
+}
+.signup-form td,
+.login-form td{
+	height: 30px;
+	padding: 5px;
+	
+}
+.signup-form input,
+.login-form input{
+	border: none;
+	border-bottom: 2px solid teal;
+	outline: none;
+	background:transparent;
+	width: 100%;
+	font-size: 16px;
+	padding: 4px;
+}
+.signup-form input[type='submit'],
+.signup-form input[type='reset'],
+.login-form input[type='submit']{
+	border-radius: 4px;
+	width: 45%;
+	height: 40px;
+	padding: 5px;
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+}
+::placeholder{
+opacity: 1;
+}
+
+/*AppJobs*/
+
+.ajbs{
+	margin-left:230px;
+	margin-top: 5px;
+	width: 70%;
+	padding: 5px 70px;
+}
+.ajb{
+    background-color:rgb(224,255,255, 0.7);
+    padding:5px 0px;
+    margin: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    }
+#jt{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	background-color:aliceblue;
+}
+.ajb table{
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+.ajb td{
+	width: 50%;
+}
+.ajb label{
+	display: block;
+	padding-left: 5px;
+}
